@@ -1,5 +1,5 @@
 # test
-just test repo
+just test reposadsaa
 
-build test .123
-scaadada
+build test .123dsada
+scaadadaasada
