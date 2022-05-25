@@ -1,4 +1,4 @@
 # test
 just test repo
 
-build test ...
+build test .1
