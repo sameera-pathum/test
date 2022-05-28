@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: entitymanager123
-        image: hello-world:latest
+        image: cpdevelop.azurecr.io/entitymanager:13
         ports:
         - containerPort: 8083
