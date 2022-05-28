@@ -4,19 +4,19 @@ metadata:
   name: entitymanager-deployment-test
   namespace: ingress-nginx
   labels:
-    app: entitymanager
+    app: entitymanager123
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: entitymanager
+      app: entitymanager123
   template:
     metadata:
       labels:
-        app: entitymanager
+        app: entitymanager123
     spec:
       containers:
-      - name: entitymanager
+      - name: entitymanager123
         image: hello-world:latest
         ports:
         - containerPort: 8083
